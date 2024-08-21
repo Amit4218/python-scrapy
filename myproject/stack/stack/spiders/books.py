@@ -5,7 +5,7 @@ import datetime
 from pymongo import MongoClient # importing a function which will help send data to database
 
 
-client = MongoClient("mongodb+srv://amitbhagat:Amit2005@cluster0.itgpz.mongodb.net/") # connecting with database
+client = MongoClient("mongodb://localhost:27017/") # connecting with database
 
 def database(title,image,price,rating,available):
 
